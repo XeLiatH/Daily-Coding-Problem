@@ -1,5 +1,6 @@
 #Pycharm etc.
 */.idea
+.idea/
 *~
 *.pyc
 */.cache
