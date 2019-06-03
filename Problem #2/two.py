@@ -4,7 +4,7 @@
 def simple_approach(numbers: list):
     """
     The simplest solution I could come up with
-    Complexity O(n^2) in the worst case
+    Complexity O(n^2)
 
     :param numbers: iterated array
     :return: array of products
@@ -17,7 +17,6 @@ def simple_approach(numbers: list):
         for j in range(length):
             if i != j:
                 array[i] *= numbers[j]
-
     return array
 
 
