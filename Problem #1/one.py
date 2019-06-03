@@ -19,5 +19,24 @@ def simple_approach(k: int, numbers: list):
     return False
 
 
+def smart_approach(k: int, numbers: list):
+    """
+    The smart Google solution, one timer
+    Complexity O(n)
+
+    :param k: given number
+    :param numbers: iterated array
+    :return: True if any two numbers in the array equal to k
+    """
+
+    complements = set()
+    for num in numbers:
+        if num in complements:
+            return True
+        complements.add(k - num)
+    return False
+
+
 if __name__ == '__main__':
     print(simple_approach(17, [10, 15, 3, 7]))
+    print(smart_approach(17, [10, 15, 3, 7]))
