@@ -1,11 +1,9 @@
 # -*- coding: utf8 -*-
 
-"""Second problem solution"""
-
 
 def simple_approach(numbers: list):
     """
-    The simplest, but dumbest solution
+    The simplest solution I could come up with
     Complexity O(n^2) in the worst case
 
     :param numbers: iterated array

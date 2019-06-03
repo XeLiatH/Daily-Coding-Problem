@@ -1,11 +1,9 @@
 # -*- coding: utf8 -*-
 
-"""First problem solution"""
-
 
 def simple_approach(k: int, numbers: list):
     """
-    The simplest, but dumbest solution
+    The simplest solution I could come up with
     Complexity close to O(n^2) in the worst case
 
     :param k: given number
@@ -22,7 +20,4 @@ def simple_approach(k: int, numbers: list):
 
 
 if __name__ == '__main__':
-    arr = [10, 15, 3, 7]
-    k = 17
-
-    print(simple_approach(k, arr))
+    print(simple_approach(17, [10, 15, 3, 7]))
