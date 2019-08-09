@@ -131,7 +131,7 @@ and ```5```. ```[5, 1, 1, 5]``` should return ```10```, since we pick ```5``` an
 Implement a job scheduler which takes in a function ```f``` and an integer ```n```, and 
 calls ```f``` after ```n``` milliseconds.
 
-## Problem 11
+## Problem #11
 > Twitter
 
 Implement an autocomplete system. That is, given a query string ```s``` and a set 
@@ -142,7 +142,7 @@ return ```[deer, deal]```.
 
 *Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.*
 
-## Problem 12
+## Problem #12
 > Amazon
 
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps 
@@ -161,7 +161,7 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 number from a set of positive integers X? For example, if X = {1, 3, 5}, you could 
 climb 1, 3, or 5 steps at a time.
 
-## Problem 13
+## Problem #13
 > Amazon
 
 Given an integer k and a string s, find the length of the longest substring that contains 
@@ -169,14 +169,14 @@ at most k distinct characters.
 
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
-## Problem 14
+## Problem #14
 > Google
 
 The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
 
 *Hint: The basic equation of a circle is x2 + y2 = r2.*
 
-## Problem 15
+## Problem #15
 > Facebook
 
 Given a stream of elements too large to store in memory, pick a random element from the stream 

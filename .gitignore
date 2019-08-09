@@ -1,4 +1,4 @@
-#Pycharm etc.
+# Pycharm etc.
 */.idea
 .idea/
 *~
@@ -6,6 +6,9 @@
 */.cache
 */.pytest_cache
 
+# Visual Studio Code
+*/.vscode
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
