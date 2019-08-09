@@ -3,6 +3,7 @@
 [URL to the website](https://www.dailycodingproblem.com/)
 
 ## Problem #1
+
 > Google
 
 Given a list of numbers and a number ```k```, return whether any two numbers from the list 
@@ -12,6 +13,7 @@ add up to ```k```. For example, given ```[10, 15, 3, 7]``` and ```k``` of ```17`
 **Bonus: Can you do this in one pass?**
 
 ## Problem #2
+
 > Uber
 
 Given an array of integers, return a new array such that each element at index i of 
@@ -23,6 +25,7 @@ would be ```[2, 3, 6]```.
 **Follow-up: what if you can't use division?**
 
 ## Problem #3
+
 > Google
 
 Given the root to a binary tree, implement ```serialize(root)```, which serializes the tree 
@@ -45,6 +48,7 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
 
 ## Problem #4
+
 > Stripe
 
 Given an array of integers, find the first missing positive integer in linear time and constant 
@@ -57,6 +61,7 @@ The input ```[1, 2, 0]``` should give ```3```.
 **You can modify the input array in-place.**
 
 ## Problem #5
+
 > Jane Street
 
 ```cons(a, b)``` constructs a pair, and ```car(pair)``` and ```cdr(pair)``` returns 
@@ -71,9 +76,11 @@ def cons(a, b):
         return f(a, b)
     return pair
 ```
+
 Implement ```car``` and ```cdr```.
 
 ## Problem #6
+
 > Google
 
 An XOR linked list is a more memory efficient doubly linked list. Instead of each node holding 
@@ -86,6 +93,7 @@ to ```get_pointer``` and ```dereference_pointer``` functions that converts betwe
 nodes and memory addresses.
 
 ## Problem #7
+
 > Facebook
 
 Given the mapping ```a = 1, b = 2, ... z = 26```, and an encoded message, count the 
@@ -97,6 +105,7 @@ decoded as ```'aaa'```, ```'ka'```, and ```'ak'```.
 You can assume that the messages are decodable. For example, ```'001'``` is not allowed.
 
 ## Problem #8
+
 > Google
 
 A unival tree (which stands for "universal value") is a tree where all nodes under it 
@@ -104,7 +113,7 @@ have the same value. Given the root to a binary tree, count the number of unival
 
 For example, the following tree has ```5 unival subtrees```:
 
-```
+```Python
    0
   / \
  1   0
@@ -115,6 +124,7 @@ For example, the following tree has ```5 unival subtrees```:
 ```
 
 ## Problem #9
+
 > Airbnb
 
 Given a list of integers, write a function that returns the largest sum of non-adjacent 
@@ -126,12 +136,14 @@ and ```5```. ```[5, 1, 1, 5]``` should return ```10```, since we pick ```5``` an
 **Follow-up: Can you do this in O(N) time and constant space?**
 
 ## Problem #10
+
 > Apple
 
 Implement a job scheduler which takes in a function ```f``` and an integer ```n```, and 
 calls ```f``` after ```n``` milliseconds.
 
 ## Problem #11
+
 > Twitter
 
 Implement an autocomplete system. That is, given a query string ```s``` and a set 
@@ -143,6 +155,7 @@ return ```[deer, deal]```.
 *Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.*
 
 ## Problem #12
+
 > Amazon
 
 There exists a staircase with N steps, and you can climb up either 1 or 2 steps 
@@ -162,6 +175,7 @@ number from a set of positive integers X? For example, if X = {1, 3, 5}, you cou
 climb 1, 3, or 5 steps at a time.
 
 ## Problem #13
+
 > Amazon
 
 Given an integer k and a string s, find the length of the longest substring that contains 
@@ -170,6 +184,7 @@ at most k distinct characters.
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
 ## Problem #14
+
 > Google
 
 The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
@@ -177,6 +192,7 @@ The area of a circle is defined as πr^2. Estimate π to 3 decimal places using 
 *Hint: The basic equation of a circle is x2 + y2 = r2.*
 
 ## Problem #15
+
 > Facebook
 
 Given a stream of elements too large to store in memory, pick a random element from the stream 
