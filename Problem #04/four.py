@@ -1,24 +1,26 @@
 # -*- coding: utf8 -*-
 
 
-def find_missing_integer(integers: list):
-    # I think this should be O(n) ?
-    # remove duplicates
-    integers = list(set(integers))
-    # remove negative values and 0
-    integers = [item for item in integers if item > 0]
-    # sort the array
-    integers.sort()
+def find_missing_number(numbers: list):
+    if not numbers:
+        return 1
 
-    # TODO: maybe could be done in simpler way?
-    iter = 1
-    for integer in integers:
-        if iter != integer:
-            break
-        iter = iter + 1
-    return iter
+    maximum = max(numbers)
+
+    lookup = {}
+    for num in numbers:
+        lookup[num] = True
+
+    numbers = None  # Unsetting the variable
+
+    # Not sure if this complies with constant space since range creates a list of values
+    for i in range(1, maximum):
+        if not lookup.get(i):
+            return i
+
+    return maximum + 1
 
 
 if __name__ == "__main__":
-    print(2 == find_missing_integer([3, 4, -1, 1]))
-    print(3 == find_missing_integer([1, 2, 0]))
+    print(2 == find_missing_number([3, 4, -1, 1]))
+    print(3 == find_missing_number([1, 2, 0]))
