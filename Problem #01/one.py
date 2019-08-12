@@ -1,15 +1,5 @@
-# -*- coding: utf8 -*-
-
-
 def simple_approach(k: int, numbers: list):
-    """
-    The simplest solution I could come up with
-    Complexity close to O(n^2) in the worst case
-
-    :param k: given number
-    :param numbers: iterated array
-    :return: True if any two numbers in the array equal to k
-    """
+    # Complexity close to O(n^2) in the worst case
 
     length = len(numbers)
     for i in range(length - 1):
@@ -20,14 +10,8 @@ def simple_approach(k: int, numbers: list):
 
 
 def smart_approach(k: int, numbers: list):
-    """
-    The smart Google solution, one timer
-    Complexity O(n)
-
-    :param k: given number
-    :param numbers: iterated array
-    :return: True if any two numbers in the array equal to k
-    """
+    # The smart Google solution, one timer
+    # Complexity O(n)
 
     complements = set()
     for num in numbers:

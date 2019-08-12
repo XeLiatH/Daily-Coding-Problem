@@ -1,6 +1,3 @@
-# -*- coding: utf8 -*-
-
-
 def find_missing_number(numbers: list):
     if not numbers:
         return 1

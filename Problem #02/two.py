@@ -1,14 +1,5 @@
-# -*- coding: utf8 -*-
-
-
 def simple_approach(numbers: list):
-    """
-    The simplest solution I could come up with
-    Complexity O(n^2)
-
-    :param numbers: iterated array
-    :return: array of products
-    """
+    # Complexity O(n^2)
 
     length = len(numbers)
     array = [1] * length
