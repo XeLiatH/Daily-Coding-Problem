@@ -1,5 +1,20 @@
+# -*- coding: utf-8 -*-
+
+"""
+    > 01.solution
+    ~~~~~~~~~~~~~
+    Finding if two elements in an array add up to number n
+
+"""
+
 def simple_approach(k: int, numbers: list):
-    # Complexity close to O(n^2) in the worst case
+    """
+    Complexity close to O(n^2) in the worst case
+
+    :param k:
+    :param numbers:
+    :return:
+    """
 
     length = len(numbers)
     for i in range(length - 1):
@@ -10,8 +25,13 @@ def simple_approach(k: int, numbers: list):
 
 
 def smart_approach(k: int, numbers: list):
-    # The smart Google solution, one timer
-    # Complexity O(n)
+    """
+    The smart Google solution, one timer - Complexity O(n)
+
+    :param k:
+    :param numbers:
+    :return:
+    """
 
     complements = set()
     for num in numbers:
