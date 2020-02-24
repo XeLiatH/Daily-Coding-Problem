@@ -7,6 +7,8 @@
 
 """
 
+from functools import reduce
+
 
 def smart_approach(numbers: list):
     """
@@ -19,9 +21,7 @@ def smart_approach(numbers: list):
     length = len(numbers)
     result = [None] * length
 
-    product = 1
-    for num in numbers:
-        product *= num
+    product = reduce((lambda x, y: x * y), numbers)
 
     for i in range(length):
         result[i] = product / numbers[i]
