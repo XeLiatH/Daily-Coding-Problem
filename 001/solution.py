@@ -7,6 +7,7 @@
 
 """
 
+
 def simple_approach(k: int, numbers: list):
     """
     Complexity close to O(n^2) in the worst case
