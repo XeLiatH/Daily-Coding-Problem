@@ -2,7 +2,7 @@
 
 """
     > 001.solution
-    ~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~
     Finding if two elements in an array add up to number n
 
 """

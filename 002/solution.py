@@ -2,7 +2,7 @@
 
 """
     > 002.solution
-    ~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~
     Finding the product off all numbers but itself
 
 """
@@ -12,7 +12,7 @@ from functools import reduce
 
 def smart_approach(numbers: list):
     """
-    Complexity O(2n) => O(n)
+    Complexity O(2n) -> O(n)
 
     :param numbers:
     :return:
