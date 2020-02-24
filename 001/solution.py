@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    > 01.solution
+    > 001.solution
     ~~~~~~~~~~~~~
     Finding if two elements in an array add up to number n
 
