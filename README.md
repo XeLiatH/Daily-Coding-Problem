@@ -1,5 +1,6 @@
 # Daily Coding Problem Solutions
 
-> Every problem is explained in its respective folder.
+This repository contains solutions to the daily coding problem. Some of them are my own, some
+are not. It exists purely for educational purposes - Python and algorithms.
 
-[URL to the website](https://www.dailycodingproblem.com/)
+Website: https://www.dailycodingproblem.com/
