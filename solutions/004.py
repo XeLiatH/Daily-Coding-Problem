@@ -25,7 +25,7 @@ def find_first_positive_missing(nums: list):
     5. Else return maximum + 1
 
     :param nums: pool of numbers
-    :return:
+    :return: the first positive integer missing
     """
 
     if not nums:
