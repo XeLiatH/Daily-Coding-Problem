@@ -4,8 +4,9 @@
 
     > 001 @ Google
     ~~~~~~~~~~~~~~
-    Given a list of numbers and a number k, return whether any two numbers from the list
-    add up to k. For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+    Given a list of numbers and a number k, return whether any two numbers 
+    from the list add up to k. For example, given [10, 15, 3, 7] and k of 17, 
+    return true since 10 + 7 is 17.
 
     __
     Bonus: Can you do this in one pass?
@@ -19,9 +20,13 @@ def check_pair_sum(k: int, nums: list):
     2. As you iterate, add complement to a set
     3. Two numbers add up to k if number is in complements
 
-    :param k: desired sum
-    :param nums: available numbers
-    :return:
+    Parameters:
+    k (int): desired sum
+    nums (list): available numbers
+
+    Returns
+    boolean: tru if there are 2 numbers in nums that add up to k
+
     """
 
     complements = set()
